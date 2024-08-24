@@ -88,11 +88,11 @@ To set up ShorX locally, follow these steps:
 
 ### Links Dashboard
 
-![Links Dashboard Preview](https://imgur.com/uQOvAZHl.jpg)
+![Links Dashboard Preview](https://imgur.com/yG5h6Yk.png)
 
 ### Create Link Page
 
-![Create Link Page Preview](https://imgur.com/ljAQP1ol.jpg)
+![Create Link Page Preview](https://imgur.com/ULftbvV.png)
 
 ## Credits
 
