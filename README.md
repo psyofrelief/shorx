@@ -7,6 +7,11 @@
 
 Explore the live demo at [ShorX](https://shrx.me)
 
+### Demo login details:
+
+Email: guest@shrx.com
+Password: Shorx1234
+
 ## About ShorX
 
 ShorX is a powerful link shortening service that lets users quickly shorten URLs and create QR codes for simple sharing & tracking. ShorX is pronounced as "Shor Ten," with X standing for the Roman numeral for ten. ShorX is a modern frontend with server-side backend capabilities built with Laravel, React, and Inertia.js.
@@ -32,7 +37,7 @@ To set up ShorX locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/shorx.git
+    git clone https://github.com/psyofrelief/shorx.git
     ```
 2. Navigate to the project directory:
     ```bash
@@ -77,7 +82,7 @@ To set up ShorX locally, follow these steps:
 
 ![Home Page Preview](https://imgur.com/mMTncUV.jpg)
 
-### Login
+### Login Page
 
 ![Dashboard Preview](https://imgur.com/exIS5kl.jpg)
 
@@ -85,7 +90,7 @@ To set up ShorX locally, follow these steps:
 
 ![Dashboard Preview](https://imgur.com/uQOvAZHl.jpg)
 
-### Create
+### Create Link Page
 
 ![Dashboard Preview](https://imgur.com/ljAQP1ol.jpg)
 

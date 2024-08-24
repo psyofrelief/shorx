@@ -4,7 +4,6 @@ import type { PageProps } from "@/types";
 import { Button } from "@/Components/ui/button";
 import RightArrowIcon from "@/Components/Svg/RightArrowIcon";
 import LinkCard from "@/Components/LinkCard";
-import { LinkProvider } from "@/Utils/LinkContext";
 import QrCodeIcon from "@/Components/Svg/InfoCardIcons/QrCodeIcon";
 import ManageIcon from "@/Components/Svg/InfoCardIcons/ManageIcon";
 import StatsIcon from "@/Components/Svg/InfoCardIcons/StatsIcon";
@@ -13,16 +12,12 @@ import HeaderImage from "@/Components/Svg/HeaderImage";
 import { motion } from "framer-motion";
 import InfoCard from "@/Components/InfoCard";
 import HomeLinkForm from "@/Components/Forms/HomeLinkForm";
-import { useEffect } from "react";
 
 export default function Home() {
     const { auth, flash }: PageProps = usePage<PageProps>().props;
     const link = flash.link;
     const user = auth.user;
 
-    useEffect(() => {
-        console.log(link);
-    }, [link]);
     return (
         <Layout>
             <Head title="Home" />
@@ -45,6 +40,7 @@ export default function Home() {
                                 <Link
                                     href="/register"
                                     aria-label="Register redirect link"
+                                    tabIndex={-1}
                                 >
                                     <Button aria-label="Register redirect button">
                                         Get started for free{" "}
@@ -57,6 +53,7 @@ export default function Home() {
                                 <Link
                                     href="/create"
                                     aria-label="Create redirect link"
+                                    tabIndex={-1}
                                 >
                                     <Button aria-label="Create link redirect button">
                                         Create a link{" "}
@@ -71,6 +68,7 @@ export default function Home() {
                                 rel="noreferrer"
                                 aria-label="Github repo redirect link"
                                 target="_blank"
+                                tabIndex={-1}
                             >
                                 <Button
                                     aria-label="Github repo redirect button"

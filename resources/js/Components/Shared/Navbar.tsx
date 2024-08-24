@@ -58,6 +58,7 @@ export default function Navbar() {
                             href="/login"
                             aria-label="Login redirect link"
                             className="my-auto"
+                            tabIndex={-1}
                         >
                             <Button
                                 aria-label="Login redirect button"
@@ -70,6 +71,7 @@ export default function Navbar() {
                         <Link
                             href="/register"
                             aria-label="Register redirect link"
+                            tabIndex={-1}
                         >
                             <Button
                                 className=" p-5"

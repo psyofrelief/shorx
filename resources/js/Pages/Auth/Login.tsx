@@ -24,6 +24,8 @@ export default function Login({ status }: { status?: string }) {
                     <HomeIcon className="h-5 w-5" />
                 </Button>
             </Link>
+
+            <DarkModeToggle className="border border-muted" />
             <div className="flex flex-col items-center justify-center pt-12  flex-1">
                 {status && (
                     <div className="mb-4 font-semibold text-md text-green-600">
@@ -42,7 +44,6 @@ export default function Login({ status }: { status?: string }) {
                 </Link>
                 <LoginImage />
             </div>
-            <DarkModeToggle className="border border-muted" />
         </main>
     );
 }

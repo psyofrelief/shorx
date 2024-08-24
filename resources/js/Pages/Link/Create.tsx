@@ -2,15 +2,15 @@ import CreateLinkForm from "@/Components/Forms/CreateLinkForm";
 import LinkCard from "@/Components/LinkCard";
 import Layout from "@/Layouts/Layout";
 import type { PageProps } from "@/types";
-import { LinkProvider } from "@/Utils/LinkContext";
 import { Head, usePage } from "@inertiajs/react";
 
 export default function Create() {
     const { errors } = usePage().props;
-    const { link }: PageProps = usePage<PageProps>().props;
+    const { flash }: PageProps = usePage<PageProps>().props;
+    const link = flash.link;
 
     return (
-        <LinkProvider link={link}>
+        <>
             <Head title="Create" />
             <meta
                 name="description"
@@ -23,8 +23,8 @@ export default function Create() {
                     </h1>
                     <CreateLinkForm errors={errors} />
                 </main>
-                {link && <LinkCard />}
+                {link && <LinkCard link={link} />}
             </Layout>
-        </LinkProvider>
+        </>
     );
 }
