@@ -9,8 +9,8 @@ Explore the live demo at [ShorX](https://shrx.me)
 
 ### Demo login details:
 
-Email: guest@shrx.com
-Password: Shorx1234
+-   Email: guest@shrx.com
+-   Password: Shorx1234
 
 ## About ShorX
 
@@ -84,15 +84,15 @@ To set up ShorX locally, follow these steps:
 
 ### Login Page
 
-![Dashboard Preview](https://imgur.com/exIS5kl.jpg)
+![Login Preview](https://imgur.com/exIS5kl.jpg)
 
 ### Links Dashboard
 
-![Dashboard Preview](https://imgur.com/uQOvAZHl.jpg)
+![Links Dashboard Preview](https://imgur.com/uQOvAZHl.jpg)
 
 ### Create Link Page
 
-![Dashboard Preview](https://imgur.com/ljAQP1ol.jpg)
+![Create Link Page Preview](https://imgur.com/ljAQP1ol.jpg)
 
 ## Credits
 

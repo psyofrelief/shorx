@@ -48,7 +48,7 @@ export default function LinkCard({ link }: LinkProps) {
                         target="_blank"
                         className="text-primary underline underline-offset-4 hover: text-lg font-bold"
                     >
-                        shrx.is/{link.short_code}
+                        shrx.me/{link.short_code}
                     </a>
                     <Button
                         aria-label="Short link copy button"
