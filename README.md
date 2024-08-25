@@ -5,7 +5,7 @@
 ![Inertia.js](https://img.shields.io/badge/Inertia.js-35495E?style=for-the-badge&logo=inertiajs&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-Explore the live demo at [ShorX](https://shrx.me)
+Explore the live demo at [ShorX](https://www.shrx.me)
 
 ### Demo login details:
 
