@@ -49,7 +49,7 @@ class HomeController extends Controller
         $link->save();
 
         $request->session()->flash("message", "Link created successfully!");
-        $request->session()->flash("link", $$link);
+        $request->session()->flash("link", $link);
         return inertia("Home");
     }
 
