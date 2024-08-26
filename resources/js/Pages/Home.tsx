@@ -74,7 +74,7 @@ export default function Home() {
                                     aria-label="Github repo redirect button"
                                     variant={"outline"}
                                 >
-                                    Learn more
+                                    Visit Github
                                 </Button>
                             </a>
                         </div>
